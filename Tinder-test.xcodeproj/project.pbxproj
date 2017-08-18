@@ -14,6 +14,9 @@
 		CD1987941F44A80300B7D1B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1987921F44A80300B7D1B1 /* LaunchScreen.storyboard */; };
 		CD19879F1F44A80300B7D1B1 /* Tinder_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD19879E1F44A80300B7D1B1 /* Tinder_testTests.swift */; };
 		CD1987AA1F44A80300B7D1B1 /* Tinder_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1987A91F44A80300B7D1B1 /* Tinder_testUITests.swift */; };
+		CD1987BA1F44A87D00B7D1B1 /* SPTinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1987B81F44A87D00B7D1B1 /* SPTinderView.swift */; };
+		CD1987BB1F44A87D00B7D1B1 /* SPTinderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1987B91F44A87D00B7D1B1 /* SPTinderViewCell.swift */; };
+		CD1987BD1F44A93900B7D1B1 /* MyTinderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1987BC1F44A93900B7D1B1 /* MyTinderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		CD1987A51F44A80300B7D1B1 /* Tinder-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tinder-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1987A91F44A80300B7D1B1 /* Tinder_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tinder_testUITests.swift; sourceTree = "<group>"; };
 		CD1987AB1F44A80300B7D1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1987B81F44A87D00B7D1B1 /* SPTinderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPTinderView.swift; sourceTree = "<group>"; };
+		CD1987B91F44A87D00B7D1B1 /* SPTinderViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPTinderViewCell.swift; sourceTree = "<group>"; };
+		CD1987BC1F44A93900B7D1B1 /* MyTinderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTinderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,10 @@
 		CD1987881F44A80300B7D1B1 /* Tinder-test */ = {
 			isa = PBXGroup;
 			children = (
+				CD1987B71F44A86800B7D1B1 /* Source */,
 				CD1987891F44A80300B7D1B1 /* AppDelegate.swift */,
 				CD19878B1F44A80300B7D1B1 /* ViewController.swift */,
+				CD1987BC1F44A93900B7D1B1 /* MyTinderCell.swift */,
 				CD19878D1F44A80300B7D1B1 /* Main.storyboard */,
 				CD1987901F44A80300B7D1B1 /* Assets.xcassets */,
 				CD1987921F44A80300B7D1B1 /* LaunchScreen.storyboard */,
@@ -123,6 +131,15 @@
 				CD1987AB1F44A80300B7D1B1 /* Info.plist */,
 			);
 			path = "Tinder-testUITests";
+			sourceTree = "<group>";
+		};
+		CD1987B71F44A86800B7D1B1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CD1987B81F44A87D00B7D1B1 /* SPTinderView.swift */,
+				CD1987B91F44A87D00B7D1B1 /* SPTinderViewCell.swift */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD19878C1F44A80300B7D1B1 /* ViewController.swift in Sources */,
+				CD1987BB1F44A87D00B7D1B1 /* SPTinderViewCell.swift in Sources */,
 				CD19878A1F44A80300B7D1B1 /* AppDelegate.swift in Sources */,
+				CD1987BA1F44A87D00B7D1B1 /* SPTinderView.swift in Sources */,
+				CD1987BD1F44A93900B7D1B1 /* MyTinderCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
